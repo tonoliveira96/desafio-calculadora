@@ -1,11 +1,11 @@
 # Desafio Calculadora
 
 ## Tecnologias
-
+<span>
 <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/html_original_wordmark_logo_icon_146478.png" width="50" height="50">
 <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/css_original_wordmark_logo_icon_146576.png" width="50" height="50">
 <img src="https://cdn.icon-icons.com/icons2/2108/PNG/512/javascript_icon_130900.png" width="42" height="42">
-
+</span>
 ## Front-end
 <img src="https://github.com/tonoliveira96/desafio-calculadora/blob/master/assets/Peek-calculadora.gif?raw=true" />
 
