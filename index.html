@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <title>UpFlow.me - Calculator</title>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Calculadora</h1>
+      <div id="display">
+        <label for="field"
+          >Digite a quantidade de campos envolvidos na operação</label
+        >
+        <br />
+        <input type="number" id="number" maxlength="4" value="" />
+        <button id="fields">Adicionar campos</button>
+      </div>
+      <div id="new-fields">
+        <!-- Aqui vão os campos adicionados -->
+      </div>
+      <div class="buttons">
+        <button id="sum" class="btn-operator">Realizar soma</button>
+        <button id="sub" class="btn-operator">Realizar subtração</button>
+      </div>
+      <div class="footer">
+        <h3>Resultado: <span id="result"></span></h3>
+        <button id="clear">Limpar</button>
+      </div>
+    </div>
+
+    <footer>
+      <a
+        href="https://www.linkedin.com/in/tonoliveira96/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg"
+          alt="linkedin"
+          srcset=""
+        />
+        Everton Oliveira</a
+      >
+    </footer>
+    <script src="./controller/controller.js"></script>
+    <script src="./calculator.js"></script>
+  </body>
+</html>
